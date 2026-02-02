@@ -25,8 +25,8 @@ public class program11_Butterfly {
 	
 	int n= sc.nextInt();
 	
-	int space= 2*n-1;
-	int len= 2*n-1;
+	int space= 2*n-2;
+	int len= 2*n;
 	int star=0;
 	
 	for(int i=0;i<len;i++) {
@@ -50,9 +50,16 @@ public class program11_Butterfly {
 		}
 		
 		for(int j=0;j<star;j++) {
-			
-			if(j!=n-1)
 			System.out.print("*");
+		}
+		if(i<n-1) {
+			space = space-2;
+		
+		}
+		
+
+		else {
+			space = space + 2;
 		}
 		
 		System.out.println();
