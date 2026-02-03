@@ -33,5 +33,11 @@ class Product{
 		this.gst=gst;
 		this.quantity=quantity;
 		}
+	
+	public double calculateTotal(int quan){
+        double total = price*quan;
+        return total + (total  * gst/100);
+        
+    }
 	}
 

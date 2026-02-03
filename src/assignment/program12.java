@@ -31,6 +31,7 @@ public class Program12 {
 			for(int j=i+1;j<n;j++) {
 				if(arr[i]+arr[j]==target) {
 					System.out.print(i +" "+ j);
+					System.out.println();
 					break;
 				}
 			}
