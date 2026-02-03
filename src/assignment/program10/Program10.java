@@ -85,7 +85,9 @@ public static void main(String[] args) throws FileNotFoundException {
                       //  double ftotal= total;
                         total = total+ amount;
                         System.out.println("Product is selected, amount with GST is: " + amount);
-                    } else {
+                    } 
+                    
+                    else {
                         System.out.println("Quantity exceeded");
                     }
                 }
@@ -93,12 +95,14 @@ public static void main(String[] args) throws FileNotFoundException {
             else if (ch == 2) {
                 System.out.println("Checkout");
                 System.out.println("Total Amount to be paid: " + total);
-            } 
+            }
+            
             else {
                 System.out.println("Invalid choice!");
             }
 
-        } while (ch != 2);
+        } 
+		while (ch != 2);
 		
 		input.close();
 		sc.close();

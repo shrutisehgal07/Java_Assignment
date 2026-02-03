@@ -36,7 +36,7 @@ class Product{
 	
 	public double calculateTotal(int quan){
         double total = price*quan;
-        return total + (total  * gst/100);
+        return total + (total * gst/100);
         
     }
 	}
