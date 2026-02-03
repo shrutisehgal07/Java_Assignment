@@ -7,7 +7,7 @@ package assignment;
 
 import java.util.Scanner;
 
-public class program13 {
+public class Program13 {
 
 public static void main(String[] args) {
 		

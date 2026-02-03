@@ -11,7 +11,7 @@ Output: -> 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
 
 package assignment;
 
-public class program8_spiralMatrix {
+public class Program8_spiralMatrix {
 	
 	public static void main(String[] args) {
 	

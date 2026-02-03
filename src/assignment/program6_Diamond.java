@@ -13,7 +13,7 @@ package assignment;
 
 import java.util.Scanner;
 
-public class program6_Diamond {
+public class Program6_Diamond {
 	public static void main(String[] args) {
 
 	Scanner sc = new Scanner(System.in);

@@ -17,7 +17,7 @@ print below pattern
 package assignment;
 
 import java.util.*;
-public class program11_Butterfly {
+public class Program11_Butterfly {
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	

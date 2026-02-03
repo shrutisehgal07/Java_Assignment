@@ -7,7 +7,7 @@ package assignment;
 import java.util.*;
 import java.io.*;
 
-public class program9 {
+public class Program9 {
 public static void main(String[] args) throws FileNotFoundException {
 	
 	int count=0;

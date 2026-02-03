@@ -11,7 +11,7 @@ package assignment;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class program15 {
+public class Program15 {
 public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
