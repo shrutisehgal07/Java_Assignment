@@ -9,6 +9,13 @@ public class Application {
 		System.out.println("Hello World");
 		int a= 11;
 		System.out.println(a);
+		
+		main();
 	}
 
+	
+	public static int main() {
+		System.out.println("Hello");
+		return 1;
+	}
 }
